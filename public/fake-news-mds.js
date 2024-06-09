@@ -63,6 +63,8 @@ APP.plotComplete = async function () {
                     data: APP.table,
                     dom: "Bfrtip",
                     buttons: ["colvis"],
+                    // Center the highlight col
+                    columnDefs: [{targets: 0, className: "dt-body-center"}],
                     drawCallback: function(settings) {
                         $(".table-check").on("change", function(e) {
                             var index = this.getAttribute("id").substr(12);

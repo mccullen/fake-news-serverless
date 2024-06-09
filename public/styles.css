@@ -82,3 +82,8 @@ svg {
 div.dt-button-collection {
     width: fit-content;
 }
+
+.lbl {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
