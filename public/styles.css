@@ -78,3 +78,7 @@ svg {
 .collapse-btn {
     float: right;
 }
+
+div.dt-button-collection {
+    width: fit-content;
+}

@@ -78,11 +78,16 @@ APP.plotComplete = async function () {
                     },
                     columns: [
                         {
+                            title: "Highlight",
                             render: function(data, type, row) {
                                 var html;
                                 html = `<input class="table-check" id="table-check-${row.index}" type="checkbox">`;
                                 return html;
                             }
+                        },
+                        {
+                            data: "PotentialFake",
+                            title: "Trustworthiness",
                         },
                         { 
                             data: "AdvertisementCount",
