@@ -3,7 +3,6 @@
 """
 Created on Wed Oct 17 12:27:03 2018
 
-@author: Navidmms
 """
 
 import json

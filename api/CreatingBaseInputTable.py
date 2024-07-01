@@ -2,7 +2,6 @@
 """
 Created on Mon Nov 19 12:31:18 2018
 
-@author: Navid
 """
 
 # Analyzing Current Data Table 

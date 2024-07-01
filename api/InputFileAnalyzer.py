@@ -5,7 +5,6 @@ from textblob import TextBlob
 """
 Created on Mon Nov 19 10:52:25 2018
 
-@author: Navid
 """
 def ExtractingNumericFeatures(Dict_Input):
     
